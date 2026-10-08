@@ -1,0 +1,17 @@
+# =========================
+# Dependencies
+# =========================
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.yarn-cache/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+!.env.template
+
