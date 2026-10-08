@@ -7,7 +7,7 @@ import { authenticate } from './middleware/authJuanDeLaTorre';
 import User from './models/User';
 import { uploadMiddleware } from './middleware/multer';
 import { isValidUrl } from './utils/validUrl';
-const router = Router();
+const router:Router = Router();
 
 declare global {
     namespace Express {

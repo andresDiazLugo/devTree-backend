@@ -1,0 +1,1 @@
+{"version":3,"file":"associations.js","sourceRoot":"","sources":["../../src/models/associations.ts"],"names":[],"mappings":";;;;;AAAA,kDAA0B;AAC1B,kDAA0B;AAE1B,cAAI,CAAC,OAAO,CAAC,cAAI,EAAE;IACjB,UAAU,EAAE,QAAQ;IACpB,EAAE,EAAE,OAAO;CACZ,CAAC,CAAC;AAEH,cAAI,CAAC,SAAS,CAAC,cAAI,EAAE;IACnB,UAAU,EAAE,QAAQ;IACpB,EAAE,EAAE,MAAM;CACX,CAAC,CAAC"}

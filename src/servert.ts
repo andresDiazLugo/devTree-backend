@@ -2,11 +2,11 @@
 import 'dotenv/config';
 import cors from 'cors';
 import { corsConfig } from './config/cors';
-import express from 'express';// ESM EcmaScript Modules
+import express, {Express} from 'express';// ESM EcmaScript Modules
 import router from './router';
 
 
-const app = express();
+const app: Express = express();
 
 //configurar cors
 app.use(cors(

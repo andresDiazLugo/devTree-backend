@@ -1,0 +1,10 @@
+import { Request, Response } from 'express';
+export declare const createAccount: (req: Request, res: Response) => Promise<Response<any, Record<string, any>>>;
+export declare const login: (req: Request, res: Response) => Promise<Response<any, Record<string, any>>>;
+export declare const getUser: (req: Request, res: Response) => Promise<void>;
+export declare const updateProfile: (req: Request, res: Response) => Promise<Response<any, Record<string, any>>>;
+export declare const updateLink: (req: Request, res: Response) => Promise<Response<any, Record<string, any>>>;
+export declare const getLink: (req: Request, res: Response) => Promise<void>;
+export declare const updateLinkOrder: (req: Request, res: Response) => Promise<Response<any, Record<string, any>>>;
+export declare const getUserBytHandle: (req: Request, res: Response) => Promise<Response<any, Record<string, any>>>;
+export declare const searchUserByHandle: (req: Request, res: Response) => Promise<Response<any, Record<string, any>>>;
