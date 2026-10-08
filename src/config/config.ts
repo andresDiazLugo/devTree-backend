@@ -6,7 +6,7 @@ const confit = {
         dialect: "postgres"
     },
     frontend: {
-        origin: modeEnv === 'DEV' ? process.env.FRONTEND_URL : ''
+        origin: modeEnv === 'PROD' ? process.env.FRONTEND_URL : process.env.FRONTEND_URL_DEV
     }
 }
 
