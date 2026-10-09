@@ -107,7 +107,7 @@ router.get('/link',authenticate, getLink);
 
 router.put('/link/order', authenticate, updateLinkOrder);
 
-router.get('/user/:handle', authenticate, getUserBytHandle);
+router.get('/user/:handle', getUserBytHandle);
 
 router.post('/search',
     body('handle')
